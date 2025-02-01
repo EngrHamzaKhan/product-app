@@ -1,0 +1,89 @@
+
+/* Login.css */
+
+/* Overall container styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+  }
+  
+  /* Styling for the login form */
+  .login-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .login-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input field group */
+  .input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  /* Label Styling */
+  .input-group label {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Input field styling */
+  .input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Submit button styling */
+  .login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    width: 100%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  
+  /* Forgot Password link */
+  .forgot-password {
+    margin-top: 1rem;
+  }
+  
+  .forgot-password a {
+    color: #007BFF;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
